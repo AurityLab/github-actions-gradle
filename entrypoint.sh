@@ -1,8 +1,8 @@
 #!/bin/bash
 
 if [[ -n $1 ]]; then
-  sudo apt-get update
-  sudo apt-get install -y $1
+  apt-get update
+  apt-get install -y $1
 fi
 
 chmod +x gradlew
