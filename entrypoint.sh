@@ -1,7 +1,3 @@
-#!/bin/bash
-
+#!/bin/sh
 chmod +x gradlew
-WORK_DIR=$PWD
-
-cd "$1"
-sh -c "${WORK_DIR}/gradlew ${@:2}"
+sh -c "./gradlew $*"
